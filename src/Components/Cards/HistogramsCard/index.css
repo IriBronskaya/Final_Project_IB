@@ -1,0 +1,13 @@
+.border-right-line {
+  display: block;
+  width: 2px;
+  height: 124px;
+  background-color: #949494;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 500px) {
+  .border-right-line {
+    display: none;
+  }
+}

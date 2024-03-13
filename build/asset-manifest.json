@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d64b9b8f.css",
+    "main.js": "/static/js/main.c4e15872.js",
+    "static/media/search.svg": "/static/media/search.165cd9a87b99688bd004369099230805.svg",
+    "static/media/logo.svg": "/static/media/logo.b3f122e8386ce88a8b6d2e95a34db198.svg",
+    "static/media/ferry_black.otf": "/static/media/ferry_black.8d1c2bfebe1bfba898ae.otf",
+    "static/media/logo-popup.svg": "/static/media/logo-popup.9b013cd613583cabe993942edb751077.svg",
+    "static/media/logo-footer.svg": "/static/media/logo-footer.fa0d15c6180edab8663c3f883514ef92.svg",
+    "static/media/data-search3.svg": "/static/media/data-search3.ee475d528380100d3355a8b3612bfb86.svg",
+    "static/media/auth-pic.svg": "/static/media/auth-pic.8375cb216e6878be8864b5ae536b66fa.svg",
+    "static/media/why.svg": "/static/media/why.6acc06232c4daa1b0212b144c4944a65.svg",
+    "static/media/search-result.svg": "/static/media/search-result.6e7e2aef66ec51120ceaec145ea0e94c.svg",
+    "static/media/auth-lock.svg": "/static/media/auth-lock.a6528caf57d4da5d92d78ac84f2a0412.svg",
+    "static/media/beginner.svg": "/static/media/beginner.20c13d9919867a151987c6e4ca6faa39.svg",
+    "static/media/pro.svg": "/static/media/pro.a8fc98813291d00740cc1f1a65276623.svg",
+    "static/media/data-search2.svg": "/static/media/data-search2.730c68c5574cbd07a6f9ba318de734e2.svg",
+    "static/media/facebook.svg": "/static/media/facebook.ac55df65b11556212d849c6160acc20c.svg",
+    "static/media/check-mark.svg": "/static/media/check-mark.3635a2dabe67866fd059b81429ad95b4.svg",
+    "static/media/card-img-3.svg": "/static/media/card-img-3.765b84f17e6eed57ef25bb48e44d3e38.svg",
+    "static/media/card-img-2.svg": "/static/media/card-img-2.2a321e8cb2247eb118076734b3febd88.svg",
+    "static/media/loader.svg": "/static/media/loader.df54e1d19f2dd21ded1a9d17b8fe5bcf.svg",
+    "static/media/google.svg": "/static/media/google.b233cfdc5526452c7dcd15c2b52ac715.svg",
+    "static/media/data-search1.svg": "/static/media/data-search1.cb1d5414d02f5662784b9f602c3efbf2.svg",
+    "static/media/card-img-1.svg": "/static/media/card-img-1.1fac99ab9c899850347b676d26527f23.svg",
+    "static/media/yandex.svg": "/static/media/yandex.4b143ee67dda3bad0f35615948137ced.svg",
+    "static/media/business.svg": "/static/media/business.ba581528001f5237be7394bb1c290f9f.svg",
+    "static/media/arrow-left.svg": "/static/media/arrow-left.170e0f79398b767018d5ce0c4993264f.svg",
+    "static/media/arrow-right.svg": "/static/media/arrow-right.11a5d2dd6d37ef852c83982650f8f8fa.svg",
+    "index.html": "/index.html",
+    "main.d64b9b8f.css.map": "/static/css/main.d64b9b8f.css.map",
+    "main.c4e15872.js.map": "/static/js/main.c4e15872.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d64b9b8f.css",
+    "static/js/main.c4e15872.js"
+  ]
+}

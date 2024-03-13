@@ -1,0 +1,341 @@
+/* section search */
+.search {
+  width: 94vw;
+  margin: 0 auto;
+  display: flex;
+}
+
+.search h1 {
+  font-family: "Ferry", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 72px;
+  letter-spacing: 0.01em;
+  position: relative;
+  width: 60vw;
+}
+
+.search p {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  margin-top: 3.5vw;
+}
+
+.search-btn {
+  width: 335px;
+  height: 59px;
+  background-color: #5970ff;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5.5vw;
+}
+
+.search-btn:hover {
+  cursor: pointer;
+  background-color: rgb(30, 165, 130);
+}
+
+.search-info {
+  width: 48vw;
+}
+
+.search-picture {
+  width: 43.5vw;
+}
+/* section search */
+
+/* section why */
+.why {
+  width: 94vw;
+  margin: 5vw auto;
+}
+
+.why h1 {
+  font-family: "Ferry", sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 54px;
+  letter-spacing: 0.01em;
+}
+
+.why-slider-container {
+  margin-top: 4vw;
+}
+
+.why-slider {
+  width: 90vw;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.arrow-back,
+.arrow-next {
+  background: none;
+  border: none;
+}
+
+.arrow-back {
+  position: relative;
+  top: -150px;
+  left: -5px;
+}
+
+.arrow-next {
+  position: relative;
+  top: -150px;
+  left: 89vw;
+}
+
+.why-picture {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+/* section why */
+
+/* section rates */
+.rates {
+  width: 94vw;
+  margin: 0 auto;
+}
+
+.rates h1 {
+  font-family: "Ferry", sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 54px;
+  letter-spacing: 0.01em;
+}
+
+.rates-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px auto 90px auto;
+}
+
+/* section rates */
+
+/* медиа запросы */
+@media screen and (max-width: 1250px) {
+  .search h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .search p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .arrow-next {
+    left: 87vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .search h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .search p {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 2vw;
+  }
+
+  .search-btn {
+    margin-top: 4vw;
+  }
+
+  .why {
+    margin-bottom: 8vw;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .arrow-next {
+    left: 85vw;
+  }
+
+  .search h1 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  .search p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .why {
+    overflow: hidden;
+  }
+
+  .why-picture {
+    width: 850px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .search {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-info {
+    width: 92vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search h1 {
+    width: 92vw;
+  }
+
+  .search p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+  }
+
+  .search-btn {
+    align-self: center;
+  }
+
+  .search img {
+    width: 92vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .arrow-next {
+    left: 83vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .why {
+    margin-bottom: 13vw;
+  }
+
+  .arrow-next {
+    left: 81vw;
+  }
+
+  .rates-cards-container {
+    margin: 20px auto 40px auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .search-btn {
+    margin: 30px 0 30px 0;
+  }
+
+  .why h1 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .arrow-next {
+    left: 80vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .search {
+    width: 92.5vw;
+  }
+
+  .why {
+    width: 92.5vw;
+  }
+
+  .why h1 {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+  }
+
+  .why-slider__item {
+    width: 298px !important;
+    height: 188px !important;
+    margin: 10px auto;
+  }
+
+  .why-slider__item img {
+    width: 45px !important;
+    margin: 10px 20px !important;
+  }
+
+  .why-slider__item p {
+    font-size: 16px;
+  }
+
+  .arrow-next {
+    left: 78vw;
+  }
+
+  .rates {
+    width: 92.5vw;
+  }
+
+  .rates h1 {
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+  }
+
+  .rates-cards-container {
+    margin: 10px auto 30px auto;
+  }
+
+  .footer img {
+    width: 110px;
+  }
+
+  .footer-info {
+    margin: 25px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .search h1 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .search p {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+  }
+
+  .search-btn {
+    margin: 30px 0 30px 0;
+  }
+
+  .arrow-back {
+    left: -10px;
+  }
+
+  .arrow-next {
+    left: 74vw;
+  }
+}
+/* медиа запросы */

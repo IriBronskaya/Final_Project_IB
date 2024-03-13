@@ -1,0 +1,155 @@
+.hidden {
+  display: none !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 94vw;
+  margin: 0 auto;
+}
+
+.header-container {
+  width: 55vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container--mini {
+  width: fit-content;
+}
+
+.header-menu {
+  display: inherit;
+  justify-content: space-between;
+}
+
+.header-menu--hidden {
+  display: none;
+}
+
+.header-menu__item {
+  margin: 0 16px;
+}
+
+.available-services {
+  width: 175px;
+  height: 63px;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.available-services--loader {
+  width: 175px;
+  height: 63px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.available-services-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.available-services-text-used,
+.available-services-text-limit {
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0em;
+  margin-right: 7px;
+  opacity: 0.6;
+}
+
+.available-services-text-used {
+  margin-bottom: 4px;
+}
+
+.available-services-text-limit {
+  margin-top: 4px;
+}
+
+.available-services-digit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.available-services-digit-used {
+  font-weight: 700;
+  letter-spacing: 0em;
+  margin-bottom: 2px;
+}
+.available-services-digit-limit {
+  font-weight: 700;
+  letter-spacing: 0em;
+  color: #8ac540;
+  margin-top: 2px;
+}
+
+.userInfo-container {
+  display: flex;
+}
+
+.header-btns {
+  display: inherit;
+  justify-content: space-between;
+}
+
+.header-btns--hidden {
+  display: none;
+}
+
+.registrate-btn {
+  border: none;
+  border-radius: 5px;
+  background: none;
+  opacity: 40%;
+  width: fit-content;
+  height: 26px;
+  padding: 0 5px;
+  margin: 0 15px;
+}
+
+.enter-btn {
+  width: 65px;
+  height: 26px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  background-color: #7ce3e1;
+  margin: 0 20px;
+}
+
+.registrate-btn:hover,
+.enter-btn:hover {
+  background-color: rgb(40, 165, 130);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.line {
+  height: 26px;
+  width: 2px;
+  background-color: #029491;
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    width: 92.5vw;
+  }
+
+  .available-services {
+    width: 132px;
+    height: 75px;
+  }
+
+  .available-services-text-container {
+    align-items: flex-start;
+  }
+}
