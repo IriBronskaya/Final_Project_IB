@@ -25,8 +25,8 @@
 - Redux toolkit
 
 ## Список логинов и паролей для авторизации:<br>
-https://docs.google.com/spreadsheets/d/16sXmrKf--J-5F7AMwMNCpRVZovQmTsvF_tcDoFm1en8/edit#gid=1906748092
-Логин / Пароль<br>
+https://docs.google.com/spreadsheets/d/16sXmrKf--J-5F7AMwMNCpRVZovQmTsvF_tcDoFm1en8/edit#gid=1906748092 <br>
+<br> Логин / Пароль<br>
 sf_student1 / 4i2385j<br>
 sf_student10 / KHKfTXb<br>
 sf_student3 / 6z9ZFRs<br>
